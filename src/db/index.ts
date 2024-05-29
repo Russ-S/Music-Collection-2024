@@ -2,7 +2,7 @@ export const recordings = [
   {
     id: "1",
     composer: "Albéniz, Issac (1860-1909)",
-    coverImage: "covers/Albeniz-Iberia.jpg",
+    coverImage: "/covers/Albeniz-Iberia.jpg",
     composition: "Navarra completed by Déodat de Séverac",
     artists: "Alicia de Larrocha (piano)",
     conductor: "",
@@ -23,7 +23,7 @@ export const recordings = [
   {
     id: "2",
     composer: "Albéniz, Issac (1860-1909)",
-    coverImage: "covers/Albeniz-Iberia.jpg",
+    coverImage: "/covers/Albeniz-Iberia.jpg",
     composition: "Iberia (suite for piano, 4 books) (1906-1908)",
     artists: "Alicia de Larrocha (piano)",
     conductor: "",
@@ -44,7 +44,7 @@ export const recordings = [
   {
     id: "3",
     composer: "Adams, John (1947-    )",
-    coverImage: "covers/john_adams-fearful-symmetries.jpg",
+    coverImage: "/covers/john_adams-fearful-symmetries.jpg",
     composition: "The Wound Dresser",
     artists:
       "Sanford Sylvan (baritone), Naoko Tanaka (violin), Chris Gekker (trumpet)",
@@ -66,7 +66,7 @@ export const recordings = [
   {
     id: "4",
     composer: "Adams, John (1947-    )",
-    coverImage: "covers/john_adams-fearful-symmetries.jpg",
+    coverImage: "/covers/john_adams-fearful-symmetries.jpg",
     composition: "Fearful Symmetries",
     artists: "",
     conductor: "John Adams",
@@ -87,7 +87,7 @@ export const recordings = [
   {
     id: "5",
     composer: "Tchaikovsky, Peter (1840-1893)",
-    coverImage: "covers/Tchaikovsky-Donohoe.jpg",
+    coverImage: "/covers/Tchaikovsky-Donohoe.jpg",
     composition:
       "Concerto No. 2 for Piano and Orchestra in G Major, Op. 44 (original version)",
     artists:
@@ -111,7 +111,7 @@ export const recordings = [
     id: "6",
 
     composer: "Tchaikovsky, Peter (1840-1893)",
-    coverImage: "covers/Tchaikovsky-Donohoe.jpg",
+    coverImage: "/covers/Tchaikovsky-Donohoe.jpg",
     composition:
       "Concerto No. 3 for Piano and Orchestra in E-flat Major, Op. 75",
     artists: "Peter Donohoe (piano)",
@@ -133,7 +133,7 @@ export const recordings = [
   {
     id: "7",
     composer: "Orff, Carl (1895-1982)",
-    coverImage: "covers/no-image.jpg",
+    coverImage: "/covers/no-image.jpg",
     composition: "Carmina Burana",
     artists:
       "Nadia Vitkoska (soprano), Kenneth Regal (tenor), William Metcalf (bass), Saratoga-Potsdam Chorus",
@@ -147,7 +147,7 @@ export const recordings = [
     label: "",
     catalogNumber: "",
     purchaseDate: "1973-08-20T00:00:00.000Z",
-    value: "0.00",
+    value: "",
     tapeNumber: "RR00014",
     location: "Cortez, CO",
     createdAt: "2023-10-15T19:41:17.243Z",
@@ -155,7 +155,7 @@ export const recordings = [
   {
     id: "8",
     composer: "Brahms, Johannes (1833-1897)",
-    coverImage: "covers/Brahms-Katchen.jpg",
+    coverImage: "/covers/Brahms-Katchen.jpg",
     composition: "Variations and Fugue on a Theme by Handel, Op. 24",
     artists: "Julius Katchen (piano) ",
     conductor: "",
@@ -178,7 +178,7 @@ export const recordings = [
   {
     id: "9",
     composer: "Brahms, Johannes (1833-1897)",
-    coverImage: "covers/Brahms-Katchen.jpg",
+    coverImage: "/covers/Brahms-Katchen.jpg",
     composition: "Variations on a Theme of Paganini, Op. 35 (Books 1 and 2)",
     artists: "Julius Katchen (piano) ",
     conductor: "",
@@ -191,7 +191,6 @@ export const recordings = [
     label: "Ace of Diamonds Records",
     catalogNumber: "SDD 538",
     purchaseDate: "2003-05-17T00:00:00.000Z",
-
     value: "0.00",
     tapeNumber: "",
     location: "Cortez, CO",
@@ -200,16 +199,20 @@ export const recordings = [
   {
     id: "10",
     composer: "Barber, Samuel (1910-1981)",
-    coverImage: "uploads\\image-1698249449694.jpg",
+    coverImage: "/covers/barber_bso.jpg",
     composition: "My Work, Op. 323",
+    artists: "George George (cello) ",
+    conductor: "Walter Bruno",
+    ensemble: "Orchestra of the Age of Nothing",
     media: "Compact Disc",
     digital: "DDD",
-    workCategory: "Cello",
+    workCategory: "Orchestral",
     fileCategory: "Cello",
     label: "Teldec",
     catalogNumber: "1234567-8",
     purchaseDate: "2023-05-18T00:00:00.000Z",
     value: "2.99",
+    tapeNumber: "",
     location: "Fallston, MD",
     createdAt: "2023-10-25T15:57:32.125Z",
     source: "Radio Broadcast",

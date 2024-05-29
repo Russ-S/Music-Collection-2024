@@ -3,10 +3,10 @@ import { performances } from "@/db";
 
 export default function PerformancesPage() {
   return (
-    <div>
-      <h1>Performances Page</h1>
+    <div className="allPerformances">
+      <h1 className="pageTitle">Performances</h1>
 
-      <div>
+      <div className="performancesPage">
         {performances.map((performance) => (
           <PerformanceItem performance={performance} key={performance.id} />
         ))}
