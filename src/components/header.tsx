@@ -10,6 +10,9 @@ export default function Header() {
         <Link href="/recordings" className="nav-item">
           Recordings
         </Link>
+        <Link href="/recordings/new" className="nav-item">
+          New Recording
+        </Link>
         <Link href="/performances" className="nav-item">
           Performances
         </Link>

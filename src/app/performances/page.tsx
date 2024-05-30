@@ -1,9 +1,9 @@
-import PerformanceItem from "../components/performance-item";
+import PerformanceItem from "../../components/performance-item";
 import { performances } from "@/db";
 
 export default function PerformancesPage() {
   return (
-    <div className="allPerformances">
+    <div className="pageBackground">
       <h1 className="pageTitle">Performances</h1>
 
       <div className="performancesPage">

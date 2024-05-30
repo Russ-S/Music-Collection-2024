@@ -1,9 +1,9 @@
-import RecordingItem from "../components/recording-item";
+import RecordingItem from "../../components/recording-item";
 import { recordings } from "@/db";
 
 export default function RecordingsPage() {
   return (
-    <div className="allRecordings">
+    <div className="pageBackground">
       <h1 className="pageTitle">Recordings</h1>
 
       <div className="recordingsPage">
